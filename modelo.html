@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Modelo de Exercício</title>
+</head>
+<body>
+    <header>
+        <h1>Who's that triângulo?</h1>
+    </header>
+    <section id="area1">
+        <div id="form">
+            <p>Lado 1:
+                <input type="number" id="l1" name="l1">
+            </p>
+            <p>Lado 2:
+                <input type="number" id="l2" name="l2">
+            </p>
+            <p>Lado 3:
+                <input type="number" id="l3" name="l3">
+            </p>
+            <p><input type="button" value="Verificar" id="botao" onclick="verificar()"></p>
+        </div>
+        <div id="result">
+            Resultado...
+        </div>
+    </section>
+    <section id="area2">
+        <div>
+            <p><strong>Isósceles:</strong> Triângulo que possui dois lados com medidas iguais e um diferente.</p>
+            <p><strong>Escaleno:</strong> Triângulo que possui os três lados com medidas diferentes.</p>
+            <p><strong>Equilátero:</strong> Triângulo que possui os três lados com mesmas medidas.</p>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; CursoemVideo</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
